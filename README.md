@@ -5,12 +5,12 @@ GPASS
 
 This repository contains a project built for Professor Grinstein's "Visual Analytics" class (91.540 Spring 2014 semester) at UMass Lowell. The project's purpose was to create a visualization of the Google Play App Store. 
 
-GPASS is a multi-threaded Java application that "spiders" across the Android app store, extracting all publically available information displayed on the page. Those attributes are as follows: name, appStoreID, category, priceInCents, hasInAppPurchases, totalReviews, averageRating, fiveStars, fourStars, threeStars, twoStars, oneStar, lastUpdateMillis, appSizeKB, downloadCount, appVersion, requiredAPI, contentRating. GPASS stores the app information into a HyperSQL DB.
+GPASS is a multi-threaded Java application that "spiders" across the Android app store, extracting all publically available information displayed on the page. The attributes extracted are as follows: appName, appStoreID, category, priceInCents, hasInAppPurchases, totalReviews, averageRating, fiveStars, fourStars, threeStars, twoStars, oneStar, lastUpdateMillis, appSizeKB, downloadCount, appVersion, requiredAPI, contentRating. GPASS stores the app information into a HyperSQL DB.
 
-There is the source code for the GPASS application under the javasrc/ folder. 
-The libraries used (HyperSQL http://hsqldb.org/) can be found under lib/. 
-There is an output in CSV format under extras/. This output contains 405,709 unique rows resulting from running the GPASS application for ~3 days. There is a performance issue when running the program for this long; suspected database limitation.
-The PowerPoint used to present the project to the class can also be found under extras/.
+ - There is the source code for the GPASS application under the javasrc/ folder. 
+ - The libraries used (HyperSQL http://hsqldb.org/) can be found under lib/. 
+ - There is an output in CSV format under extras/. This output contains 405,709 unique rows resulting from running the   - GPASS application for ~3 days. There is a performance issue when running the program for this long; suspected database limitation.
+ - The PowerPoint used to present the project to the class can also be found under extras/.
 
 
 
