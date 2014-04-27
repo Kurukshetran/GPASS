@@ -9,7 +9,7 @@ GPASS is a multi-threaded Java application that "spiders" across the Android app
 
  - There is the source code for the GPASS application under the javasrc/ folder. 
  - The libraries used (HyperSQL http://hsqldb.org/) can be found under lib/. 
- - There is an output in CSV format under extras/. This output contains 405,709 unique rows resulting from running the   - GPASS application for ~3 days. There is a performance issue when running the program for this long; suspected database limitation.
+ - There is an output in CSV format under extras/. This output contains 405,709 unique rows resulting from running the GPASS application for ~3 days. There is a performance issue when running the program for this long; suspected database limitation. Marked under "TODO" for improvements.
  - The PowerPoint used to present the project to the class can also be found under extras/.
 
 
