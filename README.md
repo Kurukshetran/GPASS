@@ -40,3 +40,9 @@ TODO
  - The "apps per second" (APS) calculation printed out at run time isn't correct.
  - There are some poor code design issues (lack of abstraction, package circular dependencies)
  
+
+
+ABOUT
+=====
+
+This code is publically available to use and branch. You can contact me (Benjamin Chevoor) at benjamin(dot)chevoor@gmail.com for any additional comments and questions.
