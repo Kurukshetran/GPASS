@@ -39,6 +39,7 @@ TODO
  - One of the biggest issues is the perfomance of the database after a few days running. In my experience, the app can process ~20 apps per second in the beginning. After 400,000 apps stored, this number falls to 1 app every two seconds.
  - The "apps per second" (APS) calculation printed out at run time isn't correct.
  - There are some poor code design issues (lack of abstraction, package circular dependencies)
+ - Documentation!
  
 
 
